@@ -1,0 +1,308 @@
+.wrapper {
+  /* display: none; */
+}
+.header {
+  text-align: center;
+  font-size: 2em;
+  margin: 0.4em;
+  font-style: italic;
+}
+.container {
+  max-width: 1046px;
+  margin: 0 auto;
+}
+.main {
+  flex: 1 1 auto;
+}
+.main__blocks {
+  display: flex;
+  width: calc(3 * 100vw);
+}
+.block {
+  width: 100vw;
+  height: 75vh;
+  text-align: center;
+}
+.move {
+  margin-left: -100vw;
+  transition: all 2s;
+}
+.block1 {
+  background-color: aqua;
+}
+.block1 h1 {
+  margin-top: 15vh;
+  font-size: 2.8em;
+}
+.block1 h2 {
+  margin-top: 5vh;
+  font-size: 2.5em;
+}
+.logo {
+  margin-top: 1vh;
+}
+.block2 {
+  background-color: rgb(145, 255, 0);
+  height: 77vh;
+}
+.block3 {
+  background-color: rgb(204, 0, 255);
+}
+.btn {
+  padding: 2vh;
+  border: 1px solid;
+  border-radius: 3vh;
+  font-size: 3vh;
+  background: rebeccapurple;
+  color: white;
+  margin-top: 6vh;
+}
+.btn__imo {
+  font-size: 4vh;
+  margin-top: 3vh;
+  line-height: 32px;
+ padding: 5px 10px 10px 5px;
+}
+.color {
+  color: #00ff2b;
+}
+.btn img {
+  width: 10%;
+  margin-right: 3vw;
+}
+.tel__block {
+  margin-top: 10vh;
+}
+.tel__block h1 {
+  margin-bottom: 2vh;
+  font-size: 5vh;
+}
+.tel__block input {
+  width: 60%;
+  padding: 2vh;
+  font-size: clamp(25px, 3vh, 5vh);
+}
+.pay__block {
+  margin-top: 3vh;
+}
+.pay__block h1 {
+  margin-bottom: 2vh;
+  font-size: 5vh;
+}
+.pay__block input {
+  width: 60%;
+  padding: 2vh;
+  font-size: clamp(25px, 4vh, 5vh);
+}
+.btn__ok {
+  width: 40%;
+  font-size: clamp(17px, 3vh, 5vh);
+  background-color: #0878ef;
+  border: 2px;
+}
+.btn__ok:hover {
+  background-color: rgb(0, 131, 39);
+}
+.footer {
+  text-align: center;
+  font-size: 2em;
+  margin: 0.4em;
+  font-style: italic;
+  line-height: 1.2;
+}
+
+.modal__block {
+  position: absolute;
+  height: 100vh;
+  background-color: #0878ef;
+  font-size: 5vh;
+  color: white;
+  padding: 10vh;
+  line-height: 10vh;
+}
+
+.modal__block {
+  display: none;
+}
+
+
+
+.seting__block {
+  text-align: center;
+  /* background-color: aqua; */
+  position: absolute;
+  height: 100%;
+ display: none; 
+}
+.seting__block h1 {
+  font-size: 26px;
+  color: #ff0303;
+  line-height: 55px;
+}
+
+.anim__block {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+img {
+  border: 2px solid;
+}
+
+.finger {
+  width: 10%;
+  position: absolute;
+  border: none;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+.finger1 {
+  top: 326px;
+  left: 160px;
+  animation-name: move1;
+ 
+}
+@keyframes move1 {
+100% {
+  top: 180px;
+}
+}
+.finger2 {
+  top: 361px;
+  left: 160px;
+  animation-name: move2;
+}
+@keyframes move2 {
+  100% {
+    top: 215px;
+  }
+}
+
+.finger3 {
+  top: 326px;
+  left: 160px;
+  animation-name: move3;
+ 
+}
+@keyframes move3 {
+100% {
+  top: 240px;
+}
+}
+
+.finger4 {
+  top: 190px;
+  left: 97px;
+  animation-name: move4;
+ 
+}
+@keyframes move4 {
+100% {
+  left: 220px;
+}
+}
+
+.finger5 {
+  top: 272px;
+  left: 97px;
+  animation-name: move5;
+ 
+}
+@keyframes move5 {
+100% {
+  left: 220px;
+}
+}
+
+.finger6 {
+  top: 403px;
+  left: 160px;
+  animation-name: move6;
+ 
+}
+@keyframes move6 {
+100% {
+  top: 330px;
+}
+}
+
+.finger7 {
+  top: 400px;
+  left: 160px;
+  animation-name: move7;
+ 
+}
+@keyframes move7 {
+100% {
+  top: 290px;
+}
+}
+
+.finger8 {
+  top: 200px;
+  left: 250px;
+  animation-name: move8;
+ 
+}
+@keyframes move8 {
+100% {
+  top: 49px;
+}
+}
+
+.finger9 {
+  top: 200px;
+  left: 200px;
+  animation-name: move9;
+ 
+}
+@keyframes move9 {
+100% {
+  top: 49px;
+}
+}
+
+.finger10 {
+  top: 200px;
+  left: 52px;
+  animation-name: move10;
+ 
+}
+@keyframes move10 {
+100% {
+  top: 135px;
+}
+}
+
+.finger11 {
+  top: 390px;
+  left: 52px;
+  animation-name: move11;
+ 
+}
+@keyframes move11 {
+100% {
+  top: 230px;
+}
+}
+
+.finger12 {
+  top: 220px;
+  left: 170px;
+  animation-name: move12;
+ 
+}
+@keyframes move12 {
+100% {
+  top: 90px;
+}
+}
+
+  .display__none {
+    display: none;
+  }
+  .display__block {
+    display: block;
+  }
