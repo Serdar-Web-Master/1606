@@ -1,5 +1,6 @@
 .wrapper {
   /* display: none; */
+  background-color: #d3d3da;
 }
 .header {
   text-align: center;
@@ -28,7 +29,7 @@
   transition: all 2s;
 }
 .block1 {
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 .block1 h1 {
   margin-top: 15vh;
